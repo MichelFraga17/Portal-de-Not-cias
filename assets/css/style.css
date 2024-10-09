@@ -1,0 +1,224 @@
+
+body > header {
+    background-color: #333;
+    color: #b7b6b6;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    font-size: 18px;
+    margin-left: 2rem;
+    color: #b7b6b6;
+}
+
+header li a:hover {
+    color: #fed906;
+}
+
+h1 {
+    color: #fed906;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article  a {
+    color: #c2c2c2;
+    padding:  8px;
+    display: inline-block;
+}
+
+/* Fundo das seções */
+#sports {
+    background-color: #d0f0c0; /* Verde claro */
+}
+
+#economy {
+    background-color: #add8e6; /* Azul claro */
+}
+
+#technology {
+    background-color: #d3d3d3; /* Cinza claro */
+}
+
+#gastronomy {
+    background-color: #ffe4b5; /* Laranja claro */
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+section p {
+    color: #ffffff;
+}
+
+h2 {
+    color: #fed906;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Estilização dos botões 'Ler mais' com cores diferentes por seção */
+#sports .articles article a {
+    background-color: #006400; /* Verde escuro */
+    color: #ffffff;
+}
+
+#economy .articles article a {
+    background-color: #00008b; /* Azul escuro */
+    color: #ffffff;
+}
+
+#technology .articles article a {
+    background-color: #696969; /* Cinza escuro */
+    color: #ffffff;
+}
+
+#gastronomy .articles article a {
+    background-color: #ff8c00; /* Laranja escuro */
+    color: #ffffff;
+}
+
+/* Hover dos botões 'Ler mais' */
+.articles article a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container h2 {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.articles article h2 {
+    font-size: 32px;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 6rem;
+    width: 100%;
+    height: 20vh;
+}
+
+footer p {
+    text-align: center;
+}
+
+.navbar,
+.nav-links {
+    display: flex;
+}
+
+.navbar {
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.navbar .nav-links {
+    gap: 2rem;
+    font-size: 18px;
+}
+
+a {
+    color: #b7b6b6;
+}
+
+a:hover {
+    color: #fed906;
+}
+
+.home-social {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+    width: 15rem;
+}
+
+.home-social a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: #1a1a1a;  
+    border: .2rem solid #959595;
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--text-color);  
+}
+
+.home-social a:hover {
+    color:  #fed906;             
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
